@@ -1,6 +1,6 @@
 package com.example.demo.entity;
 
-//Create Employee Entity
+//Create Employee Entity and Example
 public class Employee {
 
 	String name;
