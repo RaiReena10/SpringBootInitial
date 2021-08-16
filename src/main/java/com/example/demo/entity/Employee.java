@@ -1,8 +1,5 @@
 package com.example.demo.entity;
 
-
-
-
 public class Employee {
 
 	String name;
@@ -32,7 +29,7 @@ public class Employee {
 	public void setId(int id) {
 		this.id = id;
 	}
-	//Added ToSTring method in Master
+	//Added ToSTring method in Master and Master is Master
 	@Override
 	public String toString() {
 		return "Employee [name=" + name + ", salary=" + salary + ", id=" + id + "]";
