@@ -1,6 +1,6 @@
 package com.example.demo.entity;
 
-//hot fix
+
 public class Employee {
 
 	String name;
@@ -33,6 +33,7 @@ public class Employee {
 		this.id = id;
 	}
 
+
 	public int getAddress() {
 		return address;
 	}
@@ -42,6 +43,7 @@ public class Employee {
 	}
 
 	// Added ToSTring method in Master and Master is Master
+
 	@Override
 	public String toString() {
 		return "Employee [name=" + name + ", salary=" + salary + ", id=" + id + "]";
