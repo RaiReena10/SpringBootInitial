@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	// Added code in Master branch
-
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
