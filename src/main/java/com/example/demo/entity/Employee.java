@@ -4,8 +4,8 @@ package com.example.demo.entity;
 public class Employee {
 
 	String name;
-	Double salary;
-	// Integer id
+	int salary;
+	// int id
 	int id;
 	int address;
 
@@ -17,11 +17,11 @@ public class Employee {
 		this.name = name;
 	}
 
-	public Double getSalary() {
+	public int getSalary() {
 		return salary;
 	}
 
-	public void setSalary(Double salary) {
+	public void setSalary(int salary) {
 		this.salary = salary;
 	}
 
@@ -44,7 +44,7 @@ public class Employee {
 	// Added ToSTring method in Master and Master is Master
 	@Override
 	public String toString() {
-		return "Employee [name=" + name + ", salary=" + salary + "]";
+		return "Employee [name=" + name + ", salary=" + salary + ", id=" + id + "]";
 	}
 
 }
