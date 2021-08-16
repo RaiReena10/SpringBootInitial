@@ -1,6 +1,6 @@
 package com.example.demo.entity;
 
-//Create Employee Entity and Example and pushing the code from eclipse in Hotfix branch
+//Hot fix branch
 public class Employee {
 
 	String name;
