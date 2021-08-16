@@ -32,7 +32,7 @@ public class Employee {
 	//Added ToSTring method in Master and Master is Master
 	@Override
 	public String toString() {
-		return "Employee [name=" + name + ", salary=" + salary + ", id=" + id + "]";
+		return "Employee [name=" + name + ", salary=" + salary + "]";
 	}
 	
 	
