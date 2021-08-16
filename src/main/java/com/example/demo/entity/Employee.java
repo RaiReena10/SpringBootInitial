@@ -4,7 +4,7 @@ public class Employee {
 
 	String name;
 	int salary;
-	
+
 	int id;
 	int address;
 
