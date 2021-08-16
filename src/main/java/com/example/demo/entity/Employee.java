@@ -5,6 +5,7 @@ public class Employee {
 
 	String name;
 	Double salary;
+	// Integer id
 	int id;
 	int address;
 
