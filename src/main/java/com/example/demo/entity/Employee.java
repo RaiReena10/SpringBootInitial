@@ -3,7 +3,7 @@ package com.example.demo.entity;
 public class Employee {
 
 	String name;
-	int salary;
+	Double salary;
 	int id;
 
 	public String getName() {
@@ -14,11 +14,11 @@ public class Employee {
 		this.name = name;
 	}
 
-	public int getSalary() {
+	public Double getSalary() {
 		return salary;
 	}
 
-	public void setSalary(int salary) {
+	public void setSalary(Double salary) {
 		this.salary = salary;
 	}
 
