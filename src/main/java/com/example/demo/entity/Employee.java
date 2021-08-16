@@ -30,7 +30,7 @@ public class Employee {
 	public void setId(int id) {
 		this.id = id;
 	}
-
+	//Added ToSTring method in Master
 	@Override
 	public String toString() {
 		return "Employee [name=" + name + ", salary=" + salary + ", id=" + id + "]";
