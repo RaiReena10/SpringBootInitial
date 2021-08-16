@@ -5,6 +5,7 @@ public class Employee {
 	String name;
 	Double salary;
 	int id;
+	int address;
 
 	public String getName() {
 		return name;
@@ -29,6 +30,14 @@ public class Employee {
 	public void setId(int id) {
 		this.id = id;
 	}
+	public int getAddress() {
+		return address;
+	}
+
+	public void setAddress(int address) {
+		this.address = address;
+	}
+
 	//Added ToSTring method in Master and Master is Master
 	@Override
 	public String toString() {
